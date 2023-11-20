@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 
 
 const Header = () => {
- const menu = useRef(null);
- const reservations = useRef(null);
- const offers = useRef(null);
- const contact = useRef(null);
+ const menu = useRef();
+ const reservations = useRef();
+ const offers = useRef();
+ const contact = useRef();
 
  const scrollToMenu = () => {
-  menu.current.scrollIntoView({behavior: 'smooth', block: 'start'});
+  menu.current.scrollIntoView({behavior: 'smooth'});
  }
 
  const scrollToReservations = () => {
-  reservations.current.scrollIntoView({behavior: 'smooth', block: 'start'});
+  reservations.current.scrollIntoView({behavior: 'smooth'});
  }
 
  const scrollToOffers = () => {
