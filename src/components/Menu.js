@@ -2,7 +2,39 @@ import React from "react";
 
 const Menu = () => {
  return (
-  <div>This is the menu</div>
+  <div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+   <div>This is the menu</div>
+  </div>
  )
 }
 

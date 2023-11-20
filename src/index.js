@@ -1,6 +1,10 @@
+import './styleSheets/reset.css';
+import './styleSheets/index.css';
+import './styleSheets/App.css';
+import './styleSheets/header.css';
+import './styleSheets/footer.css';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import './styleSheets/index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { sendToVercelAnalytics } from './vitals';

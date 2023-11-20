@@ -1,0 +1,32 @@
+#footer {
+ height: auto;
+ padding-top: 2.5vh;
+ font-size: 2rem;
+}
+
+#footerForm {
+ width: 100%;
+ display: flex;
+ padding-left: 4vw;
+ align-items: center;
+}
+
+#footerLinks {
+ width: 100%;
+ display: flex;
+ justify-content: space-evenly;
+}
+
+#emailInput, #footerSubmit {
+ height: 50%;
+}
+
+#footerSubmit {
+ width: 10%;
+}
+
+#copyright {
+ display: flex;
+ justify-content: flex-end;
+ font-size: 1rem;
+}

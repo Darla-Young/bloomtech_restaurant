@@ -1,22 +1,19 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
  return (
-  <div>
-   <h1><a href="index.html">BLOOMTECH BAR AND GRILL</a></h1>
-   <nav>
-    <div className="links">
-     <a href="menu.html">Menu</a>
-     <a>Reservations</a>
-     <a>Special Offers</a>
-     <a>Contact</a>
+  <div id="footer">
+   <form id="footerForm">
+    <input id="emailInput" type="email" placeholder="Email Address"/>
+    <button id="footerSubmit" type="submit">Sign Up</button>
+    <div id="footerLinks">
+     <Link to={'/menu'} className="footer link">Menu</Link>
+     <Link to={'/reservations'} className="footer link">Reservations</Link>
+     <Link to={'/offers'} className="footer link">Special Offers</Link>
+     <Link to={'/contact'} className="footer link">Contact</Link>
     </div>
-    <div className="buttons">
-     <button><i className="fa-brands fa-facebook"></i></button>
-     <button><i className="fa-brands fa-twitter"></i></button>
-     <button><i className="fa-brands fa-instagram"></i></button>
-    </div>
-   </nav>
+   </form>
   </div>
  )
 }
