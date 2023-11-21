@@ -1,4 +1,4 @@
-import './styleSheets/reset.css';
+import './styleSheets/reset.css'
 import './styleSheets/index.css';
 import './styleSheets/App.css';
 import './styleSheets/header.css';
